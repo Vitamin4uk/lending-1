@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Fraunces 144pt';
+    src:
+        url('../assets/fonts/Fraunces144ptS000-SemiBold.woff2') format('woff2'),
+        url('../assets/fonts/Fraunces144ptS000-SemiBold.woff') format('woff'),
+        url('../assets/fonts/Fraunces144ptS000-SemiBold.ttf') format('truetype');
+}
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    /* font-family: 'Fraunces 144pt', serif; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+object #document svg path {
+    fill: blue;
+} 
